@@ -1,4 +1,4 @@
-package java.io;
+package java_io;
 
 import java.io.OutputStream;
 import java.io.PrintStream;
