@@ -14,6 +14,7 @@ public class App
 {
 	private final static String QUEUE_NAME = "hello";
 	
+	
     public static void main( String[] args ) throws IOException, InterruptedException
     {
         System.out.println( "Start..." );
@@ -25,32 +26,59 @@ public class App
 			public void run() {
 			
 				try {
+					
 					System.out.println("Receiving messages...");
-					receiveMessage();
-				} catch (IOException e) {
+					receiveMessage("A");
+					
+				} catch (Exception e) {
 					e.printStackTrace();
-				} catch (ShutdownSignalException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (ConsumerCancelledException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				} 
 				
 			}
         }).start();
         
-        Thread.sleep(3 * 1000);
+        new Thread(new Runnable() {
+
+			public void run() {
+			
+				try {
+					
+					System.out.println("Receiving messages...");
+					receiveMessage("B");
+					
+				} catch (Exception e) {
+					e.printStackTrace();
+				} 
+				
+			}
+        }).start();
         
-        System.out.println("Sending message...");
-        sendMessage();
         
+        new Thread(new Runnable() {
+
+			public void run() {
+				
+				try {
+					
+					for(int i=0; i<3; i++) {
+						
+						sendMessage();
+						Thread.sleep(3*1000);
+					}
+					
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		
+        }).start();
+        
+        
+        System.out.println("Press any key to exit.");
+        System.in.read();
     }
     
-    private static void receiveMessage() throws IOException, ShutdownSignalException, ConsumerCancelledException, InterruptedException
+    private static void receiveMessage(String receiverName) throws IOException, ShutdownSignalException, ConsumerCancelledException, InterruptedException
     {
     
     	ConnectionFactory factory = new ConnectionFactory();
@@ -69,7 +97,7 @@ public class App
     		QueueingConsumer.Delivery delivery = consumer.nextDelivery();
     		
     		String message = new String(delivery.getBody());
-    		System.out.println(" [x] Received '" + message +"'");
+    		System.out.println(" ["+ receiverName +"] Received '" + message +"'");
     		
     	}
     
