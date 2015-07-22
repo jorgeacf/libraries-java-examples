@@ -1,4 +1,4 @@
-package rabbitmq_helloworld.rabbitmq_helloworld;
+package com.jorgefigueiredo.rabbitmq.demos;
 
 import java.io.IOException;
 

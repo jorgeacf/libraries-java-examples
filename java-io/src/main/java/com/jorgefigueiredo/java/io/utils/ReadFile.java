@@ -1,4 +1,4 @@
-package java_io.streams.demos;
+package com.jorgefigueiredo.java.io.utils;
 
 import java.util.Arrays;
 import java.util.List;
