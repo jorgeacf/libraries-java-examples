@@ -1,12 +1,12 @@
-package com.jorgefigueiredo.java.io.finance.tests;
+package com.jorgefigueiredo.finance.data.parsers.tests;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.jorgefigueiredo.java.io.finance.ITickerDataParser;
-import com.jorgefigueiredo.java.io.finance.TickerData;
-import com.jorgefigueiredo.java.io.finance.TickerDataParser;
+import com.jorgefigueiredo.finance.data.entities.TickerData;
+import com.jorgefigueiredo.finance.data.parsers.ITickerDataParser;
+import com.jorgefigueiredo.finance.data.parsers.TickerDataParser;
 
 public class TickerDataParserTests {
 

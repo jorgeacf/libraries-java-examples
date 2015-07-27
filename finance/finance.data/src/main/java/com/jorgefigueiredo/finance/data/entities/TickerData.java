@@ -1,6 +1,6 @@
-package com.jorgefigueiredo.java.io.finance;
+package com.jorgefigueiredo.finance.data.entities;
 
-
+import com.jorgefigueiredo.finance.data.parsers.ITickerDataParser;
 
 public class TickerData {
 

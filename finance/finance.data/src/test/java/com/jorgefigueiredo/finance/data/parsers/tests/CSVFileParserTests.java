@@ -1,4 +1,4 @@
-package com.jorgefigueiredo.java.io.finance.tests;
+package com.jorgefigueiredo.finance.data.parsers.tests;
 
 import static org.junit.Assert.*;
 
@@ -6,9 +6,9 @@ import java.io.File;
 
 import org.junit.Test;
 
-import com.jorgefigueiredo.java.io.finance.CSVFileParser;
-import com.jorgefigueiredo.java.io.finance.ICSVFileParser;
-import com.jorgefigueiredo.java.io.finance.InstrumentData;
+import com.jorgefigueiredo.finance.data.entities.InstrumentData;
+import com.jorgefigueiredo.finance.data.parsers.CSVFileParser;
+import com.jorgefigueiredo.finance.data.parsers.ICSVFileParser;
 
 public class CSVFileParserTests {
 

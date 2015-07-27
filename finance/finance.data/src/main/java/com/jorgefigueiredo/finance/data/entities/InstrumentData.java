@@ -1,4 +1,4 @@
-package com.jorgefigueiredo.java.io.finance;
+package com.jorgefigueiredo.finance.data.entities;
 
 import java.net.URI;
 

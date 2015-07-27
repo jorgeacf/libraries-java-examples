@@ -1,10 +1,11 @@
-package com.jorgefigueiredo.java.io.finance;
+package com.jorgefigueiredo.finance.data.parsers;
+
+import com.jorgefigueiredo.finance.data.entities.TickerData;
 
 public class TickerDataParser implements ITickerDataParser {
 
 	private final String delimiter = ",";
 	
-	@Override
 	public TickerData parse(String input) {
 		
 		String[] inputSegments = input.split(delimiter);
@@ -31,7 +32,7 @@ public class TickerDataParser implements ITickerDataParser {
 		catch(Exception ex) {
 			
 			// Add log
-			throw ex;
+			//throw ex;
 		}
 		
 		return tickerData;

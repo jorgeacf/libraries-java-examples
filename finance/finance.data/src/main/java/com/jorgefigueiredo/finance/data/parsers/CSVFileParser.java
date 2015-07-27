@@ -1,17 +1,18 @@
-package com.jorgefigueiredo.java.io.finance;
+package com.jorgefigueiredo.finance.data.parsers;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URI;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
+import com.jorgefigueiredo.finance.data.entities.InstrumentData;
+import com.jorgefigueiredo.finance.data.entities.TickerData;
+
 public class CSVFileParser implements ICSVFileParser {
 
-	@Override
 	public InstrumentData parse(File input) {
 		
 		HashMap<String, String> map = new HashMap<String, String>();
@@ -38,13 +39,14 @@ public class CSVFileParser implements ICSVFileParser {
 			return null;
 		}
 		
+		/*
 		InstrumentData instrumentData = new InstrumentData
 				(URI.create(map.get("uri")),
 				map.get("ticker"),
 				
 						
 						);
-		
+		*/
 		
 		return null;
 	}
