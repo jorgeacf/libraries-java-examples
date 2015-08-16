@@ -13,15 +13,18 @@ import com.jorgefigueiredo.finance.data.entities.TickerData;
 
 public class CSVFileParser implements ICSVFileParser {
 
-	public InstrumentData parse(File input) {
+	public InstrumentData parse(File input) throws IOException {
 		
 		HashMap<String, String> map = new HashMap<String, String>();
 		List<TickerData> data = new LinkedList<TickerData>();
 		
 		ITickerDataParser tickerDataParser = new TickerDataParser();
+		
+		FileReader fr = null;
+		BufferedReader br = null;
 		try {
-			FileReader fr = new FileReader(input);
-			BufferedReader br = new BufferedReader(fr);
+			fr = new FileReader(input);
+			br = new BufferedReader(fr);
 			
 			String line;
 			while((line = br.readLine()) != null ) {
@@ -37,6 +40,11 @@ public class CSVFileParser implements ICSVFileParser {
 			
 		} catch (IOException e) {
 			return null;
+		}
+		finally {
+			if(br != null) {
+				br.close();
+			}
 		}
 		
 		/*

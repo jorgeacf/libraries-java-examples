@@ -1,8 +1,5 @@
 package com.jorgefigueiredo.java.io.utils;
 
-import java.io.OutputStream;
-import java.io.PrintStream;
-
 
 
 public class App 
@@ -11,8 +8,6 @@ public class App
     {
 
     	
-    	OutputStream out = null;
-    	PrintStream ps = new PrintStream(out);
     
     	
     

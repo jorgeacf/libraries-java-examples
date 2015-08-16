@@ -3,6 +3,7 @@ package com.jorgefigueiredo.finance.data.parsers.tests;
 import static org.junit.Assert.*;
 
 import java.io.File;
+import java.io.IOException;
 
 import org.junit.Test;
 
@@ -13,7 +14,7 @@ import com.jorgefigueiredo.finance.data.parsers.ICSVFileParser;
 public class CSVFileParserTests {
 
 	@Test
-	public void test() {
+	public void test() throws IOException {
 		
 		String filePath = "/home/jorgeacf/dev/github/libraries-java-examples/input-files/^gdaxi_2015_06_19.csv";
 		

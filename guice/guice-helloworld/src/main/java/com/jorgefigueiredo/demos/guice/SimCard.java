@@ -1,4 +1,4 @@
-package guice_helloworld.guice_helloworld;
+package com.jorgefigueiredo.demos.guice;
 
 public class SimCard extends Contacts {
 

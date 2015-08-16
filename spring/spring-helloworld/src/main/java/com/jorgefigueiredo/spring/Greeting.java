@@ -1,4 +1,4 @@
-package com.jf.spring.helloworld;
+package com.jorgefigueiredo.spring;
 
 
 public class Greeting {

@@ -1,0 +1,129 @@
+format version: 5
+output mode:
+1 items
+0 -> multiple
+output directories:
+2 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/java -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin
+compile options:
+8 items
+0 -> -javabootclasspath
+1 -> /opt/jdk1.8.0/jre/lib/resources.jar:/opt/jdk1.8.0/jre/lib/rt.jar:/opt/jdk1.8.0/jre/lib/jsse.jar:/opt/jdk1.8.0/jre/lib/jce.jar:/opt/jdk1.8.0/jre/lib/charsets.jar:/opt/jdk1.8.0/jre/lib/jfr.jar:/opt/jdk1.8.0/jre/lib/ext/jfxrt.jar:/opt/jdk1.8.0/jre/lib/ext/dnsns.jar:/opt/jdk1.8.0/jre/lib/ext/localedata.jar:/opt/jdk1.8.0/jre/lib/ext/zipfs.jar:/opt/jdk1.8.0/jre/lib/ext/sunpkcs11.jar:/opt/jdk1.8.0/jre/lib/ext/cldrdata.jar:/opt/jdk1.8.0/jre/lib/ext/sunec.jar:/opt/jdk1.8.0/jre/lib/ext/sunjce_provider.jar:/opt/jdk1.8.0/jre/lib/ext/nashorn.jar
+2 -> -javaextdirs
+3 ->  
+4 -> -bootclasspath
+5 -> /opt/eclipse_java/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar
+6 -> -encoding
+7 -> UTF-8
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+13 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greet$.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greet.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/GreetPrinter$$anonfun$receive$2.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/GreetPrinter.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeter$$anonfun$receive$1.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeter.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeting$.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeting.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/HelloAkkaScala$.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/HelloAkkaScala$delayedInit$body.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/HelloAkkaScala.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/WhoToGreet$.class
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/WhoToGreet.class
+binary dependencies:
+3 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /home/jorgeacf/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /opt/eclipse_java/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> /opt/jdk1.8.0/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+13 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> Greet
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> Greet$
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> GreetPrinter
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> GreetPrinter$$anonfun$receive$2
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> Greeter
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> Greeter$$anonfun$receive$1
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> Greeting
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> Greeting$
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> HelloAkkaScala
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> HelloAkkaScala$
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> HelloAkkaScala$delayedInit$body
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> WhoToGreet
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> WhoToGreet$
+used names:
+0 items
+product stamps:
+13 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greet$.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greet.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/GreetPrinter$$anonfun$receive$2.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/GreetPrinter.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeter$$anonfun$receive$1.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeter.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeting$.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/Greeting.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/HelloAkkaScala$.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/HelloAkkaScala$delayedInit$body.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/HelloAkkaScala.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/WhoToGreet$.class -> lastModified(1439734567000)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/bin/WhoToGreet.class -> lastModified(1439734567000)
+source stamps:
+2 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/java/HelloAkkaJava.java -> hash(8aa8da6300d970efe518254978631d29fbaee869)
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> hash(950b41c89968bac4fe4c0068b2ab993a3253b7bb)
+binary stamps:
+3 items
+/home/jorgeacf/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar -> lastModified(1431096334000)
+/opt/eclipse_java/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar -> lastModified(1435508409000)
+/opt/jdk1.8.0/jre/lib/rt.jar -> lastModified(1428686542000)
+class names:
+3 items
+/home/jorgeacf/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar -> akka.actor.Actor
+/opt/eclipse_java/plugins/org.scala-lang.scala-library_2.11.6.v20150224-172222-092690e7bf.jar -> scala.DelayedInit
+/opt/jdk1.8.0/jre/lib/rt.jar -> java.io.Serializable
+internal apis:
+2 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/java/HelloAkkaJava.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTzbdl051cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQARS9ob21lL2pvcmdlYWNmL2Rldi9naXRodWIvbGlicmFyaWVzLWphdmEtZXhhbXBsZXMvYWtrYS9ha2thLWhlbGxvL2JpbnQAUC9ob21lL2pvcmdlYWNmL2Rldi9naXRodWIvbGlicmFyaWVzLWphdmEtZXhhbXBsZXMvYWtrYS9ha2thLWhlbGxvL3NyYy9tYWluL3NjYWxhc3EAfgAZdABFL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2Fra2EtaGVsbG8vYmludABPL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2Fra2EtaGVsbG8vc3JjL21haW4vamF2YXVyAAJbQqzzF/gGCFTgAgAAeHAAAAAUiqjaYwDZcO/lGCVJeGMdKfuu6Gk=
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC5V9XkAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAZzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAFR3JlZXR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGw7kU8R9EVMyQIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgAveHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgAuAHBzcQB+ADNzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AFUwACWluaGVyaXRlZHEAfgAVTAAHcGFyZW50c3EAfgAVeHEAfgA3c3EAfgAuAHBzcQB+ADN1cQB+ABAAAAAAc3EAfgAuAHBzcQB+ADN1cQB+ABAAAAAAc3EAfgAuAHBzcQB+ADN1cgARW0x4c2J0aS5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AIwB0AA5IZWxsb0Fra2FTY2FsYXVxAH4AJgAAAABxAH4AKnVxAH4ALAAAAAJ0ABBzY2FsYS5kZXByZWNhdGVkdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AC4AcHNxAH4AM3EAfgA4c3EAfgAuAHBzcQB+ADNzcQB+ADtzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AFnEAfgAgdXEAfgAhAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4BAXhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+ABxMAAV2YWx1ZXEAfgAceHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcQB+AEd0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AS3NxAH4ATnVxAH4AUQAAAAJzcQB+AFNxAH4AVnEAfgBYc3EAfgAjAHQABG1haW51cQB+ACYAAAAAc3EAfgBHdAAEVW5pdHEAfgEQdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+ABxMAAN0cGVxAH4BAXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AKXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4ASFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4ANnNxAH4AR3QABUFycmF5cQB+ARB1cQB+AEUAAAABc3EAfgBHdAAGU3RyaW5nc3EAfgBLc3EAfgBOdXEAfgBRAAAAA3NxAH4AU3EAfgBec3EAfgBTcQB+AGxxAH4AWHNxAH4ALgBwc3EAfgAzdXEAfgBFAAAABHNxAH4AR3QAA0FwcHEAfgEQc3EAfgBHdAALRGVsYXllZEluaXRxAH4BEHNxAH4AR3EAfgBmcQB+AS9zcQB+AEdxAH4AbnEAfgEQc3EAfgAScQB+ACB1cQB+ACEAAAAAc3EAfgAjAHQADEdyZWV0UHJpbnRlcnVxAH4AJgAAAABxAH4AdHVxAH4ALAAAAABzcQB+AC4AcHNxAH4AM3EAfgA4c3EAfgAuAHBzcQB+ADNzcQB+ADtzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4ARQAAAANzcQB+AEd0AAVBY3RvcnNxAH4AS3NxAH4ATnVxAH4AUQAAAANzcQB+AFN0AARha2thc3EAfgBTdAAFYWN0b3JxAH4AWHNxAH4AR3EAfgBmc3EAfgBLc3EAfgBOdXEAfgBRAAAAA3NxAH4AU3EAfgBec3EAfgBTcQB+AGxxAH4AWHNxAH4AR3EAfgBuc3EAfgBLc3EAfgBOdXEAfgBRAAAAAnNxAH4AU3EAfgBWcQB+AFh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTzbdl051cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+ABxMAA9zb3VyY2VEaXJlY3RvcnlxAH4AHHhwdABFL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2Fra2EtaGVsbG8vYmludABQL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2Fra2EtaGVsbG8vc3JjL21haW4vc2NhbGFzcQB+AWx0AEUvaG9tZS9qb3JnZWFjZi9kZXYvZ2l0aHViL2xpYnJhcmllcy1qYXZhLWV4YW1wbGVzL2Fra2EvYWtrYS1oZWxsby9iaW50AE8vaG9tZS9qb3JnZWFjZi9kZXYvZ2l0aHViL2xpYnJhcmllcy1qYXZhLWV4YW1wbGVzL2Fra2EvYWtrYS1oZWxsby9zcmMvbWFpbi9qYXZhdXIAAltCrPMX+AYIVOACAAB4cAAAABSVC0HImWi6xP5MAGiyq5k6MlO3uw==
+external apis:
+0 items
+source infos:
+2 items
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/java/HelloAkkaJava.java -> 
+AAAAAAAAAAA=
+/home/jorgeacf/dev/github/libraries-java-examples/akka/akka-hello/src/main/scala/HelloAkkaScala.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTx50g5N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL2pvcmdlYWNmL2Rldi9naXRodWIvbGlicmFyaWVzLWphdmEtZXhhbXBsZXMvYWtrYS9oZWxsby1ha2thL2JpbnQAUC9ob21lL2pvcmdlYWNmL2Rldi9naXRodWIvbGlicmFyaWVzLWphdmEtZXhhbXBsZXMvYWtrYS9oZWxsby1ha2thL3NyYy9tYWluL3NjYWxhc3EAfgAFdABFL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2hlbGxvLWFra2EvYmludABPL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2hlbGxvLWFra2Evc3JjL21haW4vamF2YQ==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTzbdl051cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAnNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARS9ob21lL2pvcmdlYWNmL2Rldi9naXRodWIvbGlicmFyaWVzLWphdmEtZXhhbXBsZXMvYWtrYS9ha2thLWhlbGxvL2JpbnQAUC9ob21lL2pvcmdlYWNmL2Rldi9naXRodWIvbGlicmFyaWVzLWphdmEtZXhhbXBsZXMvYWtrYS9ha2thLWhlbGxvL3NyYy9tYWluL3NjYWxhc3EAfgAFdABFL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2Fra2EtaGVsbG8vYmludABPL2hvbWUvam9yZ2VhY2YvZGV2L2dpdGh1Yi9saWJyYXJpZXMtamF2YS1leGFtcGxlcy9ha2thL2Fra2EtaGVsbG8vc3JjL21haW4vamF2YQ==

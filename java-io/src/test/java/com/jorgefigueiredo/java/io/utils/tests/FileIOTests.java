@@ -43,6 +43,7 @@ public class FileIOTests {
 		
 	}
 	
+	@SuppressWarnings("resource")
 	@Test
 	public void testFileWrite() throws IOException {
 		
