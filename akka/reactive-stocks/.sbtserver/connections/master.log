@@ -1,0 +1,19 @@
+New log file opened at Tue Aug 11 21:17:54 WEST 2015 by 5080@localhost.localdomain
+Taking next connection to: 52759
+New client attempting to connect on port: 60375-52759
+  Address = /127.0.0.1:52759
+This client on port 60375 has uuid 2c7c3daa-aa3d-4415-92bf-4e0a807eb326 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-2c7c3daa-aa3d-4415-92bf-4e0a807eb326
+Taking next connection to: 52759
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52759
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 52759
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 5080@localhost.localdomain logs at Tue Aug 11 21:26:56 WEST 2015, goodbye.

@@ -25,7 +25,7 @@ public class App
     		throw new AssertionError();
     	}
     	else {
-    		System.out.println("It Worked!");
+    		System.out.println(contacts.getClass().getName());
     	}
     	
     }

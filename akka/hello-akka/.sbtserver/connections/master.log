@@ -1,0 +1,31 @@
+New log file opened at Tue Aug 11 21:24:25 WEST 2015 by 5436@localhost.localdomain
+Taking next connection to: 51416
+New client attempting to connect on port: 58932-51416
+  Address = /127.0.0.1:51416
+This client on port 58932 has uuid 89d3acac-3433-4738-995b-ea8f2e7fbd42 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-89d3acac-3433-4738-995b-ea8f2e7fbd42
+Taking next connection to: 51416
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51416
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51416
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51416
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51416
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51416
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 51416
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 5436@localhost.localdomain logs at Tue Aug 11 21:45:29 WEST 2015, goodbye.

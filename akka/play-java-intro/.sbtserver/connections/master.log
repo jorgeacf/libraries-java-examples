@@ -1,0 +1,47 @@
+New log file opened at Tue Aug 11 21:53:36 WEST 2015 by 6563@localhost.localdomain
+Taking next connection to: 60970
+New client attempting to connect on port: 56148-60970
+  Address = /127.0.0.1:60970
+This client on port 56148 has uuid d9d83ab9-421c-4ede-b3f4-a45342b131a4 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-d9d83ab9-421c-4ede-b3f4-a45342b131a4
+Taking next connection to: 60970
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60970
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60970
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60970
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60970
+New client attempting to connect on port: 56195-60970
+  Address = /127.0.0.1:60970
+Handshake exception on socket: 56195
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 60970
+New client attempting to connect on port: 56196-60970
+  Address = /127.0.0.1:60970
+This client on port 56196 has uuid a5a6c691-71ed-4fa9-867d-895c640ecfa2 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-d9d83ab9-421c-4ede-b3f4-a45342b131a4, play-fork-run-a5a6c691-71ed-4fa9-867d-895c640ecfa2
+Taking next connection to: 60970
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60970
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 6563@localhost.localdomain logs at Tue Aug 11 22:13:36 WEST 2015, goodbye.

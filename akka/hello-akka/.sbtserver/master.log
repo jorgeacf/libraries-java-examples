@@ -1,0 +1,231 @@
+New log file opened at Tue Aug 11 21:24:24 WEST 2015 by 5436@localhost.localdomain
+jvm 5436@localhost.localdomain
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.51-b03
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/jorgeacf/.sbt/0.13/plugins
+[Loading] Found non-root projects 
+[Loading] Done in /home/jorgeacf/.sbt/0.13/plugins, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/jorgeacf/.sbt/0.13/plugins, returning: (global-plugins)
+Loading global plugins from /home/jorgeacf/.sbt/0.13/plugins
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@30794ba0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+[Loading] Scanning directory /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/project
+[Loading] Found non-root projects 
+[Loading] Done in /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin), Atom(com.orrsella.sbtsublime.SublimePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin)))))
+  :: deduced result: Matched(com.orrsella.sbtsublime.SublimePlugin,sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbteclipse.plugin.EclipsePlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/project, returning: (hello-akka-build)
+Loading project definition from /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@30794ba0, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka
+[Loading] Found non-root projects 
+[Loading] Done in /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin), Atom(com.orrsella.sbtsublime.SublimePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbteclipse.plugin.EclipsePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(com.orrsella.sbtsublime.SublimePlugin,sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbteclipse.plugin.EclipsePlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(com.orrsella.sbtsublime.SublimePlugin, sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbteclipse.plugin.EclipsePlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka, returning: (hello-akka)
+Set current project to hello-akka (in build file:/home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/)
+Reapplying settings...
+Set current project to hello-akka (in build file:/home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@5b7c5a57, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 4 s, completed 11-Aug-2015 21:25:08
+> server-post-command-cleanup
+> server-handle-next-server-request
+> eclipse
+About to create Eclipse project files for your project(s).
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@30794ba0, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@30794ba0, check cycles: false
+External dependencies for configuration 'test' and withSource 'false' and withJavadoc 'false': Success(List(Lib(/home/jorgeacf/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar), Lib(/home/jorgeacf/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar), Lib(/home/jorgeacf/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar), Lib(/home/jorgeacf/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.3.11.jar), Lib(/home/jorgeacf/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar), Lib(/home/jorgeacf/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar), Lib(/home/jorgeacf/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar), Lib(/home/jorgeacf/.ivy2/cache/junit/junit/jars/junit-4.12.jar), Lib(/home/jorgeacf/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar), Lib(/home/jorgeacf/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.11.jar), Lib(/home/jorgeacf/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar)))
+Project dependencies for configuration 'compile': Success(List())
+Project dependencies for configuration 'test': Success(List())
+Successfully created Eclipse project files for project(s):
+hello-akka
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/}hello-akka/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@68b16304, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 2 s, completed 11-Aug-2015 21:25:16
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/home/jorgeacf/dev/github/libraries-java-examples/akka/hello-akka/}hello-akka/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@1acd2fe1, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
+Total time: 2 s, completed 11-Aug-2015 21:25:18
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain HelloAkkaJava
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@1e2bb360, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+Total time: 2 s, completed 11-Aug-2015 21:28:43
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@3befadee, check cycles: false
+Total time: 0 s, completed 11-Aug-2015 21:42:14
+> server-post-command-cleanup
+> server-handle-next-server-request
+Exception in thread "sbt-bg-threads-1" java.lang.RuntimeException: Nonzero exit code returned from runner: 143
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:1943)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:1943)
+	at sbt.package$.toError(package.scala:4)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 5436@localhost.localdomain logs at Tue Aug 11 21:45:29 WEST 2015, goodbye.
