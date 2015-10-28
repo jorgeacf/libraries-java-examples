@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/akka/akka-helloworld/akka-helloworld.iml" filepath="$PROJECT_DIR$/akka/akka-helloworld/akka-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/demos.java_jdbc/demos.java_jdbc.iml" filepath="$PROJECT_DIR$/jdbc/demos.java_jdbc/demos.java_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dropwizard/dropwizard-helloworld/dropwizard-helloworld.iml" filepath="$PROJECT_DIR$/dropwizard/dropwizard-helloworld/dropwizard-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finance/finance.data/finance.data.iml" filepath="$PROJECT_DIR$/finance/finance.data/finance.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guice/guice-helloworld/guice-helloworld.iml" filepath="$PROJECT_DIR$/guice/guice-helloworld/guice-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-io/java.io.iml" filepath="$PROJECT_DIR$/java-io/java.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-helloworld/rabbitmq-helloworld.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-helloworld/rabbitmq-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/spark-helloworld/spark-helloworld.iml" filepath="$PROJECT_DIR$/spark/spark-helloworld/spark-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-helloworld/spring-helloworld.iml" filepath="$PROJECT_DIR$/spring/spring-helloworld/spring-helloworld.iml" />
+    </modules>
+  </component>
+</project>
