@@ -1,1 +1,3 @@
-# libraries-java-examples
+## Java libraries examples
+
+This is just examples and isn't production code.

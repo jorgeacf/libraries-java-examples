@@ -6,15 +6,18 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/akka/akka-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/jdbc/demos.java_jdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/guice/guice-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/spark/spark-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/spring/spring-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/finance/finance.data/pom.xml" />
+        <option value="$PROJECT_DIR$/akka/akka/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/guice/pom.xml" />
+        <option value="$PROJECT_DIR$/jetty/pom.xml" />
+        <option value="$PROJECT_DIR$/spark/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/finance/pom.xml" />
         <option value="$PROJECT_DIR$/java-io/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq/rabbitmq-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/dropwizard/dropwizard-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/cassandra/pom.xml" />
+        <option value="$PROJECT_DIR$/dropwizard/pom.xml" />
+        <option value="$PROJECT_DIR$/rest-clients/pom.xml" />
       </list>
     </option>
   </component>
@@ -30,5 +33,55 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

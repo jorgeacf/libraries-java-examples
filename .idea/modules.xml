@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/akka/akka-helloworld/akka-helloworld.iml" filepath="$PROJECT_DIR$/akka/akka-helloworld/akka-helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jdbc/demos.java_jdbc/demos.java_jdbc.iml" filepath="$PROJECT_DIR$/jdbc/demos.java_jdbc/demos.java_jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dropwizard/dropwizard-helloworld/dropwizard-helloworld.iml" filepath="$PROJECT_DIR$/dropwizard/dropwizard-helloworld/dropwizard-helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/finance/finance.data/finance.data.iml" filepath="$PROJECT_DIR$/finance/finance.data/finance.data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/guice/guice-helloworld/guice-helloworld.iml" filepath="$PROJECT_DIR$/guice/guice-helloworld/guice-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/akka/akka/akka-helloworld.iml" filepath="$PROJECT_DIR$/akka/akka/akka-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandra/cassandra.iml" filepath="$PROJECT_DIR$/cassandra/cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-clients/clien.iml" filepath="$PROJECT_DIR$/rest-clients/clien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/demos.java_jdbc.iml" filepath="$PROJECT_DIR$/jdbc/demos.java_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dropwizard/dropwizard-helloworld.iml" filepath="$PROJECT_DIR$/dropwizard/dropwizard-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finance/finance.data.iml" filepath="$PROJECT_DIR$/finance/finance.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guice/guice-helloworld.iml" filepath="$PROJECT_DIR$/guice/guice-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-io/java.io.iml" filepath="$PROJECT_DIR$/java-io/java.io.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq-helloworld/rabbitmq-helloworld.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq-helloworld/rabbitmq-helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spark/spark-helloworld/spark-helloworld.iml" filepath="$PROJECT_DIR$/spark/spark-helloworld/spark-helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring/spring-helloworld/spring-helloworld.iml" filepath="$PROJECT_DIR$/spring/spring-helloworld/spring-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty/jetty.iml" filepath="$PROJECT_DIR$/jetty/jetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark/spark-helloworld.iml" filepath="$PROJECT_DIR$/spark/spark-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring-helloworld.iml" filepath="$PROJECT_DIR$/spring/spring-helloworld.iml" />
     </modules>
   </component>
 </project>

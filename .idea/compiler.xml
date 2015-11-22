@@ -23,12 +23,15 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="akka-helloworld" />
+        <module name="cassandra" />
+        <module name="clien" />
         <module name="demos.java_jdbc" />
         <module name="dropwizard-helloworld" />
         <module name="finance.data" />
         <module name="guice-helloworld" />
         <module name="java.io" />
-        <module name="rabbitmq-helloworld" />
+        <module name="jetty" />
+        <module name="rabbitmq" />
         <module name="spring-helloworld" />
       </profile>
       <profile default="false" name="Annotation profile for spark-helloworld" enabled="true">
@@ -39,16 +42,19 @@
         <module name="spark-helloworld" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="akka-helloworld" target="1.8" />
-      <module name="demos.java_jdbc" target="1.8" />
-      <module name="dropwizard-helloworld" target="1.8" />
-      <module name="finance.data" target="1.8" />
-      <module name="guice-helloworld" target="1.8" />
-      <module name="java.io" target="1.8" />
-      <module name="rabbitmq-helloworld" target="1.8" />
+    <bytecodeTargetLevel>
+      <module name="akka-helloworld" target="1.5" />
+      <module name="cassandra" target="1.5" />
+      <module name="clien" target="1.5" />
+      <module name="demos.java_jdbc" target="1.5" />
+      <module name="dropwizard-helloworld" target="1.5" />
+      <module name="finance.data" target="1.5" />
+      <module name="guice-helloworld" target="1.5" />
+      <module name="java.io" target="1.5" />
+      <module name="jetty" target="1.5" />
+      <module name="rabbitmq" target="1.5" />
       <module name="spark-helloworld" target="1.8" />
-      <module name="spring-helloworld" target="1.8" />
+      <module name="spring-helloworld" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

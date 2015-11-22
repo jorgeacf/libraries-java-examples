@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/akka/akka-helloworld" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dropwizard/dropwizard-helloworld" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/finance/finance.data" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/guice/guice-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/akka/akka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cassandra" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dropwizard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/finance" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/guice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-io" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jdbc/demos.java_jdbc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/rabbitmq/rabbitmq-helloworld" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spark/spark-helloworld" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring/spring-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rest-clients" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring" charset="UTF-8" />
   </component>
 </project>
